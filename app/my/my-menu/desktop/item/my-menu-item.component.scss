@@ -1,0 +1,47 @@
+@import 'src/variables';
+
+a {
+  color: $text-color;
+}
+
+.menu-item {
+  min-height: 40px;
+  padding: 0 13px 0 20px;
+
+  &:hover {
+    background-color: $content-background-color;
+  }
+
+  .icon {
+    color: $light-text-color;
+  }
+
+  .menu-label {
+    margin-left: 25px;
+    font-size: 14px;
+  }
+
+  &.active {
+    background-color: $content-background-color;
+    .menu-label {
+      color: $header-color;
+    }
+  }
+
+  .submenu-label {
+    margin-left: 49px;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: block;
+  }
+}
+
+.show-more {
+  color: $link-color;
+
+  &:hover {
+    color: $link-hover-color;
+  }
+}

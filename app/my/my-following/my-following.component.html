@@ -1,0 +1,13 @@
+<div>
+  <content-header header="{{'front_my_followed-maps-header' | translate:'Followed Maps'}}"></content-header>
+  <content-menu>
+    <content-menu-left>
+      <div class="title">{{(followedMaps$ | async)?.length}} {{'front_my_maps' | translate:'Maps'}}</div>
+    </content-menu-left>
+    <content-menu-right>
+      <a color="accent" mat-flat-button [routerLink]="['/create']">{{'front_my_create-a-map' | translate:'Create a map'}}</a>
+    </content-menu-right>
+  </content-menu>
+  <maps-list [maps]="followedMaps$ | async"
+             [loading]="followedMapsLoading$ | async"></maps-list>
+</div>

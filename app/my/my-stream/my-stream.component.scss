@@ -1,0 +1,26 @@
+@import 'src/variables';
+
+.my-stream-wrap {
+  h3 {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: 500;
+  }
+
+  .recommended-list {
+    margin-left: 50px;
+    margin-bottom: 30px;
+  }
+
+  &.mobile {
+    h3 {
+      font-size: 16px;
+    }
+  }
+
+  .no-more-pages-state {
+    color: $text-color;
+    text-align: center;
+  }
+}

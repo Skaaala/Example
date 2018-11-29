@@ -1,0 +1,20 @@
+<a [routerLink]="link"
+   [routerLinkActive]="showMore ? '' : 'active'"
+   class="menu-item"
+   [class.show-more]="showMore"
+   [title]="text"
+   fxLayout="row"
+   fxLayoutAlign="start center">
+  <mat-icon *ngIf="icon"
+            fxFlex="0 0 auto"
+            class="icon">
+    {{icon}}
+  </mat-icon>
+  <div [class]="icon ? 'menu-label' : 'submenu-label'"
+       fxFlex="1 1 0">
+    {{text}}
+  </div>
+  <notification-counter *ngIf="notifications"
+                        [count]="notifications">
+  </notification-counter>
+</a>

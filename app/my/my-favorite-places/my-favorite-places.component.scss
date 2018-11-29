@@ -1,0 +1,12 @@
+@import 'src/variables';
+
+.favorite-places {
+  margin-top: 20px;
+  background-color: $white-color;
+  box-shadow: $box-shadow-a2;
+  padding: 24px;
+}
+
+.places-loader {
+  pointer-events: none;
+}

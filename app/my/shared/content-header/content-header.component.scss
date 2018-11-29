@@ -1,0 +1,15 @@
+@import 'src/variables';
+
+.content-header-wrap {
+  padding-bottom: 13px;
+  border-bottom: solid 1px $border-color;
+
+  h2 {
+    margin-top: 5px;
+    font-size: 24px;
+  }
+
+  &.mobile {
+    text-align: center;
+  }
+}

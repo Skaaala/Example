@@ -1,0 +1,30 @@
+@import 'src/variables';
+
+.my-wrap {
+  padding-top: 115px;
+  background-color: $content-background-color-light;
+
+  .my-menu-wrap {
+    padding-bottom: 40px;
+    @media (max-width: 1199px) {
+      padding-bottom: 0px;
+    }
+  }
+
+  .my-content {
+    margin-left: 50px;
+    padding-bottom: 40px;
+
+    @media (max-width: 1199px) {
+      padding-bottom: 20px;
+    }
+  }
+
+  &.mobile {
+    padding-top: 65px;
+
+    .my-content {
+      margin-left: 0px;
+    }
+  }
+}

@@ -1,0 +1,13 @@
+<my-menu-item [icon]="icon"
+              [link]="link"
+              [notifications]="notifications"
+              [text]="title">
+</my-menu-item>
+
+<ng-content></ng-content>
+
+<my-menu-item *ngIf="itemsCount && itemsLimit && itemsCount > itemsLimit"
+              [link]="link"
+              [showMore]="true"
+              [text]="'front_my-menu_show-more' | translate : '+ Show more'">
+</my-menu-item>

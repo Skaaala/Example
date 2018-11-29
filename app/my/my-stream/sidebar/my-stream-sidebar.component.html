@@ -1,0 +1,15 @@
+<h3 ngClass.lt-md="mobile">{{'front_my-stream_popular-maps' | translate:'Popular Maps'}}</h3>
+<div fxLayout="column"
+     fxLayoutGap="20px">
+  <div class="map-card-wrap"
+       *ngFor="let map of popularMaps$ | async">
+    <map-list-card [map]="map"></map-list-card>
+  </div>
+  <div class="see-more">
+    <a [routerLink]="['/dashboard/popular']"
+       mat-flat-button
+       class="normal-button action-button invert-primary-button">
+      {{ 'front_my-see-more' | translate: 'See more' }}
+    </a>
+  </div>
+</div>

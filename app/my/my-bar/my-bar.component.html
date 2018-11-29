@@ -1,0 +1,48 @@
+<header-bar
+  [centered]="true"
+  [fixed]="true"
+  scrollChangeBackroundColor="#fff"
+  defaultBackroundColor="#fff">
+
+  <header-bar-left>
+    <a [routerLink]="['/']" class="navbar-logo"
+       gaOn="click" gaCategory="My" gaAction="HeaderBar logo"
+    ></a>
+
+    <a header-bar-text-icon-button
+       [routerLink]="['/dashboard']"
+       icon="map"
+       text="{{ 'front_discover-maps' | translate:'Discover Maps' }}">
+    </a>
+
+  </header-bar-left>
+
+  <header-bar-body class="admin-header-bar">
+    <search-box-input [searchPlaceholder]="'front_search-placeholder' | translate : 'Search for places, maps, interests or communities'"
+                      theme="light-grey"
+                      size="small"
+                      [resetSearch]="resetSearch"
+                      (searchChanged)="onSearchChanged($event)"></search-box-input>
+  </header-bar-body>
+
+  <header-bar-right>
+
+    <a header-bar-text-icon-button
+       [routerLink]="['/create']"
+       icon="add_box"
+       color="accent"
+       text="{{ 'front_create-map-button_submit' | translate: 'Create map' }}"
+       gaOn="click" gaCategory="My" gaAction="HeaderBar Create Map Button"
+    >
+    </a>
+
+    <header-bar-user-button gaCategory="My"></header-bar-user-button>
+  </header-bar-right>
+
+</header-bar>
+
+<div [ngClass.gt-xs]="['large']" class="header-result" *ngIf="searchResults">
+  <mat-card>
+    <search-result-maps-places [data]="searchResults"></search-result-maps-places>
+  </mat-card>
+</div>

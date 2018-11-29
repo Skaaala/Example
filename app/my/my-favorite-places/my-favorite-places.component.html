@@ -1,0 +1,41 @@
+<div>
+  <content-header header="{{'front_my_my-favorite-places-header' | translate:'Favorite Places'}}"></content-header>
+
+  <content-menu>
+    <content-menu-left>
+      <div class="title">{{(myFavoritePlaces$ | async)?.length}} {{'front_my_favorite-places' | translate:'Favorite Places'}}</div>
+    </content-menu-left>
+    <content-menu-right></content-menu-right>
+  </content-menu>
+
+  <div class="favorite-places">
+    <mat-nav-list>
+      <div [ngStyle.gt-xs]="{'overflow-y': null}"
+           gdColumns="repeat(auto-fill, minmax(300px, 1fr))"
+           gdColumns.xs="minmax(220px, 100%)"
+           gdRows="1fr"
+           gdGap="5px 60px">
+        <a *ngFor="let place of myFavoritePlaces$ | async"
+           custom-list-item
+           [routerLink]="['/' + place.geomap?.slug, place.id + '-' + place.slug]"
+           [title]="place.name"
+           [subtitle]="place.category.name && place.category.name['en']"
+           [avatar]="place.image?.image?.small"
+           [icon]="place.category?.icon"
+           [iconColor]="place.category?.color"
+           [twoIconFix]="true">
+          <div>
+            <custom-list-item-icon-text [icon]="'star_border'" [text]="place.rating || 0" [outerGap]="'10px'" [innerGap]="'3px'"></custom-list-item-icon-text>
+          </div>
+        </a>
+
+        <ng-container *ngIf="!(myFavoritePlaces$ | async).length && (myFavoritePlacesLoading$ | async)">
+          <custom-list-item-loader class="places-loader"
+                                   *ngFor="let item of loadingTemplate"
+          ></custom-list-item-loader>
+        </ng-container>
+      </div>
+    </mat-nav-list>
+  </div>
+
+</div>

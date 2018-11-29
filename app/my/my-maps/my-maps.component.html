@@ -1,0 +1,13 @@
+<div *ngIf="{maps: myMaps$ | async} as my">
+  <content-header header="{{'front_my_my-maps-header' | translate:'My Maps'}}"></content-header>
+  <content-menu>
+    <content-menu-left>
+      <div class="title">{{my.maps?.length}} {{'front_my_maps' | translate:'Maps'}}</div>
+    </content-menu-left>
+    <content-menu-right>
+      <a mat-flat-button color="accent" [routerLink]="['/create']">{{'front_my_create-a-map' | translate:'Create a map'}}</a>
+    </content-menu-right>
+  </content-menu>
+  <maps-list [maps]="my.maps"
+             [loading]="myMapsLoading$ | async"></maps-list>
+</div>

@@ -1,0 +1,12 @@
+@import 'src/variables';
+
+:host {
+  display: block;
+  width: 250px;
+}
+
+.bottom-divider {
+  border-bottom: solid 1px $border-color;
+  margin-bottom: 15px;
+  padding-bottom: 15px;
+}

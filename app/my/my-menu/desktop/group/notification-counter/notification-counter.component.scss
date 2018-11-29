@@ -1,0 +1,14 @@
+@import 'src/variables';
+
+:host {
+  flex: 0 0 auto;
+}
+
+.notification-counter {
+  font-size: 10px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  color: $white-color;
+  background-color: $notification-background-color;
+}

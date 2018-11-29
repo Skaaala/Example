@@ -1,0 +1,28 @@
+<nav *ngIf="{path: activatedPath$ | async} as activated"
+     mat-tab-nav-bar>
+  <a mat-tab-link
+     [active]="activated.path === 'stream'"
+     [routerLink]="['stream']">
+    {{ 'front_my_my-stream-header' | translate : 'My' }}
+  </a>
+  <a mat-tab-link
+     [active]="activated.path === 'maps'"
+     [routerLink]="['maps']">
+    {{ 'front_my_my-maps-header' | translate : 'My Maps' }}
+  </a>
+  <a mat-tab-link
+     [active]="activated.path === 'following'"
+     [routerLink]="['following']">
+    {{ 'front_my_followed-maps-header' | translate : 'Followed Maps' }}
+  </a>
+  <a mat-tab-link
+     [active]="activated.path === 'favorite-places'"
+     [routerLink]="['favorite-places']">
+    {{ 'front_my_my-favorite-places-header' | translate : 'Favorite Places' }}
+  </a>
+  <a mat-tab-link
+     [active]="activated.path === 'places'"
+     [routerLink]="['places']">
+    {{ 'front_my_my-places-header' | translate : 'My Places' }}
+  </a>
+</nav>

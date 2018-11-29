@@ -1,0 +1,905 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7babac72-0a91-4fe4-84a0-99e4eca2c44f" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/core/store/my-mapotic/my-mapotic.action.ts" afterPath="$PROJECT_DIR$/app/core/store/my/my.action.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/core/store/my-mapotic/my-mapotic.effects.ts" afterPath="$PROJECT_DIR$/app/core/store/my/my.effects.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/core/store/my-mapotic/my-mapotic.reducer.ts" afterPath="$PROJECT_DIR$/app/core/store/my/my.reducer.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/core/store/my-mapotic/my-mapotic.state.ts" afterPath="$PROJECT_DIR$/app/core/store/my/my.state.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-bar/my-bar.component.html" afterPath="$PROJECT_DIR$/app/my/my-bar/my-bar.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-bar/my-bar.component.scss" afterPath="$PROJECT_DIR$/app/my/my-bar/my-bar.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-bar/my-bar.component.ts" afterPath="$PROJECT_DIR$/app/my/my-bar/my-bar.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-favorite-places/my-favorite-places.component.html" afterPath="$PROJECT_DIR$/app/my/my-favorite-places/my-favorite-places.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-favorite-places/my-favorite-places.component.scss" afterPath="$PROJECT_DIR$/app/my/my-favorite-places/my-favorite-places.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-favorite-places/my-favorite-places.component.ts" afterPath="$PROJECT_DIR$/app/my/my-favorite-places/my-favorite-places.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-following/my-following.component.html" afterPath="$PROJECT_DIR$/app/my/my-following/my-following.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-following/my-following.component.scss" afterPath="$PROJECT_DIR$/app/my/my-following/my-following.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-following/my-following.component.ts" afterPath="$PROJECT_DIR$/app/my/my-following/my-following.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-mapotic-clean-up.guard.ts" afterPath="$PROJECT_DIR$/app/my/my-clean-up.guard.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-mapotic-routing.module.ts" afterPath="$PROJECT_DIR$/app/my/my-routing.module.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-mapotic.component.html" afterPath="$PROJECT_DIR$/app/my/my.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-mapotic.component.scss" afterPath="$PROJECT_DIR$/app/my/my.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-mapotic.component.ts" afterPath="$PROJECT_DIR$/app/my/my.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-mapotic.guard.ts" afterPath="$PROJECT_DIR$/app/my/my.guard.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-mapotic.module.ts" afterPath="$PROJECT_DIR$/app/my/my.module.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-maps/my-maps.component.html" afterPath="$PROJECT_DIR$/app/my/my-maps/my-maps.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-maps/my-maps.component.scss" afterPath="$PROJECT_DIR$/app/my/my-maps/my-maps.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-maps/my-maps.component.ts" afterPath="$PROJECT_DIR$/app/my/my-maps/my-maps.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/count-new-activities.pipe.ts" afterPath="$PROJECT_DIR$/app/my/my-menu/count-new-activities.pipe.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/group/my-menu-group.component.html" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/group/my-menu-group.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/group/my-menu-group.component.scss" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/group/my-menu-group.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/group/my-menu-group.component.ts" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/group/my-menu-group.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/group/notification-counter/notification-counter.component.html" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/group/notification-counter/notification-counter.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/group/notification-counter/notification-counter.component.scss" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/group/notification-counter/notification-counter.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/group/notification-counter/notification-counter.component.ts" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/group/notification-counter/notification-counter.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/item/my-menu-item.component.html" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/item/my-menu-item.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/item/my-menu-item.component.scss" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/item/my-menu-item.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/item/my-menu-item.component.ts" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/item/my-menu-item.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/my-menu-desktop.component.html" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/my-menu-desktop.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/my-menu-desktop.component.scss" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/my-menu-desktop.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/desktop/my-menu-desktop.component.ts" afterPath="$PROJECT_DIR$/app/my/my-menu/desktop/my-menu-desktop.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/mobile/my-menu-mobile.component.html" afterPath="$PROJECT_DIR$/app/my/my-menu/mobile/my-menu-mobile.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/mobile/my-menu-mobile.component.scss" afterPath="$PROJECT_DIR$/app/my/my-menu/mobile/my-menu-mobile.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/mobile/my-menu-mobile.component.ts" afterPath="$PROJECT_DIR$/app/my/my-menu/mobile/my-menu-mobile.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/my-menu.component.html" afterPath="$PROJECT_DIR$/app/my/my-menu/my-menu.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/my-menu.component.scss" afterPath="$PROJECT_DIR$/app/my/my-menu/my-menu.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-menu/my-menu.component.ts" afterPath="$PROJECT_DIR$/app/my/my-menu/my-menu.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-places/my-places.component.html" afterPath="$PROJECT_DIR$/app/my/my-places/my-places.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-places/my-places.component.scss" afterPath="$PROJECT_DIR$/app/my/my-places/my-places.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-places/my-places.component.ts" afterPath="$PROJECT_DIR$/app/my/my-places/my-places.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-stream/my-stream.component.html" afterPath="$PROJECT_DIR$/app/my/my-stream/my-stream.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-stream/my-stream.component.scss" afterPath="$PROJECT_DIR$/app/my/my-stream/my-stream.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-stream/my-stream.component.ts" afterPath="$PROJECT_DIR$/app/my/my-stream/my-stream.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-stream/sidebar/my-stream-sidebar.component.html" afterPath="$PROJECT_DIR$/app/my/my-stream/sidebar/my-stream-sidebar.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-stream/sidebar/my-stream-sidebar.component.scss" afterPath="$PROJECT_DIR$/app/my/my-stream/sidebar/my-stream-sidebar.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/my-stream/sidebar/my-stream-sidebar.component.ts" afterPath="$PROJECT_DIR$/app/my/my-stream/sidebar/my-stream-sidebar.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-header/content-header.component.html" afterPath="$PROJECT_DIR$/app/my/shared/content-header/content-header.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-header/content-header.component.scss" afterPath="$PROJECT_DIR$/app/my/shared/content-header/content-header.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-header/content-header.component.ts" afterPath="$PROJECT_DIR$/app/my/shared/content-header/content-header.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-menu/content-menu-left/content-menu-left.component.html" afterPath="$PROJECT_DIR$/app/my/shared/content-menu/content-menu-left/content-menu-left.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-menu/content-menu-left/content-menu-left.component.scss" afterPath="$PROJECT_DIR$/app/my/shared/content-menu/content-menu-left/content-menu-left.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-menu/content-menu-left/content-menu-left.component.ts" afterPath="$PROJECT_DIR$/app/my/shared/content-menu/content-menu-left/content-menu-left.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-menu/content-menu-right/content-menu-right.component.html" afterPath="$PROJECT_DIR$/app/my/shared/content-menu/content-menu-right/content-menu-right.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-menu/content-menu-right/content-menu-right.component.scss" afterPath="$PROJECT_DIR$/app/my/shared/content-menu/content-menu-right/content-menu-right.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-menu/content-menu-right/content-menu-right.component.ts" afterPath="$PROJECT_DIR$/app/my/shared/content-menu/content-menu-right/content-menu-right.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-menu/content-menu.component.html" afterPath="$PROJECT_DIR$/app/my/shared/content-menu/content-menu.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-menu/content-menu.component.scss" afterPath="$PROJECT_DIR$/app/my/shared/content-menu/content-menu.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/content-menu/content-menu.component.ts" afterPath="$PROJECT_DIR$/app/my/shared/content-menu/content-menu.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/empty-feed/empty-feed.component.html" afterPath="$PROJECT_DIR$/app/my/shared/empty-feed/empty-feed.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/empty-feed/empty-feed.component.scss" afterPath="$PROJECT_DIR$/app/my/shared/empty-feed/empty-feed.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/empty-feed/empty-feed.component.ts" afterPath="$PROJECT_DIR$/app/my/shared/empty-feed/empty-feed.component.ts" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/maps-list/maps-list.component.html" afterPath="$PROJECT_DIR$/app/my/shared/maps-list/maps-list.component.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/maps-list/maps-list.component.scss" afterPath="$PROJECT_DIR$/app/my/shared/maps-list/maps-list.component.scss" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/my-mapotic/shared/maps-list/maps-list.component.ts" afterPath="$PROJECT_DIR$/app/my/shared/maps-list/maps-list.component.ts" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="notification-counter.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/group/notification-counter/notification-counter.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="notification-counter.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/group/notification-counter/notification-counter.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my.component.scss" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/my/my.component.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="42">
+              <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-clean-up.guard.ts" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/my/my-clean-up.guard.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+              <folding>
+                <element signature="e#0#43#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-routing.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/my/my-routing.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my.component.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/my/my.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="84">
+              <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/my/my.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="147">
+              <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my.guard.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/my/my.guard.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my.module.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/my/my.module.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-186">
+              <caret line="29" column="92" lean-forward="false" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="my-following.component.ts" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/my/my-following/my-following.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+              <folding>
+                <element signature="e#0#50#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>my</find>
+      <find>mapotic</find>
+      <find>mapoti</find>
+      <find>mapot</find>
+      <find>map</find>
+      <find>mapo</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>MyActionType</replace>
+      <replace>My</replace>
+      <replace>MyAction</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\Users\skali\Desktop\Projekty\Skaaala_GitHub\Example\app</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/app/core/store/my/my.action.ts" />
+        <option value="$PROJECT_DIR$/app/core/store/my/my.effects.ts" />
+        <option value="$PROJECT_DIR$/app/core/store/my/my.reducer.ts" />
+        <option value="$PROJECT_DIR$/app/core/store/my/my.state.ts" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-bar/my-bar.component.html" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-bar/my-bar.component.scss" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-favorite-places/my-favorite-places.component.html" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-favorite-places/my-favorite-places.component.scss" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-favorite-places/my-favorite-places.component.ts" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-following/my-following.component.html" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-following/my-following.component.ts" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-maps/my-maps.component.html" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-maps/my-maps.component.ts" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-places/my-places.component.html" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-places/my-places.component.scss" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-places/my-places.component.ts" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-stream/sidebar/my-stream-sidebar.component.html" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-stream/sidebar/my-stream-sidebar.component.scss" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-stream/my-stream.component.html" />
+        <option value="$PROJECT_DIR$/app/my-mapotic/my-stream/my-stream.component.ts" />
+        <option value="$PROJECT_DIR$/app/my/my-menu/my-menu.component.html" />
+        <option value="$PROJECT_DIR$/app/my/my-menu/mobile/my-menu-mobile.component.html" />
+        <option value="$PROJECT_DIR$/app/my/my-menu/desktop/my-menu-desktop.component.html" />
+        <option value="$PROJECT_DIR$/app/my/my-menu/desktop/my-menu-desktop.component.ts" />
+        <option value="$PROJECT_DIR$/app/my/my-menu/desktop/group/my-menu-group.component.html" />
+        <option value="$PROJECT_DIR$/app/my/my.component.scss" />
+        <option value="$PROJECT_DIR$/app/my/my.component.html" />
+        <option value="$PROJECT_DIR$/app/my/my-routing.module.ts" />
+        <option value="$PROJECT_DIR$/app/my/my.component.ts" />
+        <option value="$PROJECT_DIR$/app/my/my.guard.ts" />
+        <option value="$PROJECT_DIR$/app/my/my.module.ts" />
+        <option value="$PROJECT_DIR$/app/my/my-following/my-following.component.ts" />
+        <option value="$PROJECT_DIR$/app/my/my-clean-up.guard.ts" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-9" />
+    <option name="y" value="-9" />
+    <option name="width" value="1938" />
+    <option name="height" value="1048" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="my" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Example" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="nodejs_interpreter_path" value="C:/Program Files/nodejs/node" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
+      <method />
+    </configuration>
+    <configuration default="true" type="DartTestRunConfigurationType" factoryName="Dart Test">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7babac72-0a91-4fe4-84a0-99e4eca2c44f" name="Default" comment="" />
+      <created>1543510559822</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1543510559822</updated>
+      <workItem from="1543510561301" duration="1237000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1237000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TypeScript" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24960339" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3295583" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager />
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/app/core/api/my-api.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1029">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/dto/my-place.dto.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/store/my/my.reducer.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="22" lean-forward="true" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
+          <folding>
+            <element signature="e#0#42#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-bar/my-bar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-bar/my-bar.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="15" lean-forward="false" selection-start-line="12" selection-start-column="15" selection-end-line="12" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-bar/my-bar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="218">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/core/store/my/my.state.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="44">
+          <caret line="18" column="13" lean-forward="false" selection-start-line="18" selection-start-column="10" selection-end-line="18" selection-end-column="13" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-favorite-places/my-favorite-places.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-favorite-places/my-favorite-places.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="15" lean-forward="false" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-following/my-following.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-following/my-following.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-favorite-places/my-favorite-places.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="28" column="6" lean-forward="true" selection-start-line="28" selection-start-column="6" selection-end-line="28" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-maps/my-maps.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="86" lean-forward="false" selection-start-line="7" selection-start-column="86" selection-end-line="7" selection-end-column="86" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-maps/my-maps.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-maps/my-maps.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="73" lean-forward="false" selection-start-line="6" selection-start-column="73" selection-end-line="6" selection-end-column="73" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-places/my-places.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="76" lean-forward="false" selection-start-line="5" selection-start-column="76" selection-end-line="5" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-places/my-places.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="15" lean-forward="true" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-places/my-places.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="36" column="33" lean-forward="false" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-stream/sidebar/my-stream-sidebar.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-stream/sidebar/my-stream-sidebar.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="17" lean-forward="true" selection-start-line="8" selection-start-column="17" selection-end-line="8" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-stream/sidebar/my-stream-sidebar.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-stream/my-stream.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-94">
+          <caret line="4" column="16" lean-forward="false" selection-start-line="4" selection-start-column="14" selection-end-line="4" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-stream/my-stream.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/count-new-activities.pipe.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-stream/my-stream.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="59" column="14" lean-forward="true" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/my-menu.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="1" column="38" lean-forward="false" selection-start-line="1" selection-start-column="38" selection-end-line="1" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/my-menu.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/my-menu.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/mobile/my-menu-mobile.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="3" lean-forward="false" selection-start-line="6" selection-start-column="3" selection-end-line="6" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/mobile/my-menu-mobile.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/mobile/my-menu-mobile.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/my-menu-desktop.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="5" lean-forward="false" selection-start-line="2" selection-start-column="5" selection-end-line="2" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/my-menu-desktop.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/my-menu-desktop.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="777">
+          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#75#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/item/my-menu-item.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/item/my-menu-item.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-252">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/item/my-menu-item.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/group/my-menu-group.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#74#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/group/my-menu-group.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/group/my-menu-group.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="29" lean-forward="false" selection-start-line="11" selection-start-column="29" selection-end-line="11" selection-end-column="29" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/group/notification-counter/notification-counter.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/group/notification-counter/notification-counter.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-menu/desktop/group/notification-counter/notification-counter.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my.component.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="4" lean-forward="true" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-routing.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="11" lean-forward="false" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="10" column="15" lean-forward="true" selection-start-line="10" selection-start-column="15" selection-end-line="10" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="6" column="15" lean-forward="false" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my.module.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-186">
+          <caret line="29" column="92" lean-forward="false" selection-start-line="29" selection-start-column="92" selection-end-line="29" selection-end-column="92" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-following/my-following.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="31" column="3" lean-forward="true" selection-start-line="31" selection-start-column="3" selection-end-line="31" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#50#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/my/my-clean-up.guard.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="2" lean-forward="true" selection-start-line="9" selection-start-column="2" selection-end-line="9" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#43#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

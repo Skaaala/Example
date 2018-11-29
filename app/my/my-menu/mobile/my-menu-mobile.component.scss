@@ -1,0 +1,20 @@
+:host {
+  display: block;
+}
+
+:host/deep/ {
+  .mat-tab-links {
+    max-width: calc(100vw - 20px) !important;
+    overflow: auto !important;
+
+    &::-webkit-scrollbar {
+      height: 0 !important;
+      background: transparent !important;
+    }
+  }
+}
+
+.mat-tab-link {
+  min-width: fit-content !important;
+  padding: 0 10px;
+}

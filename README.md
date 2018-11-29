@@ -1,0 +1,1 @@
+Honza Skalický - ukázka kódu

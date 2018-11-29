@@ -1,0 +1,7 @@
+<my-menu-mobile *ngIf="mobile; else desktopMenu"
+                class="my-menu-mobile mat-tab-nav-bar">
+</my-menu-mobile>
+
+<ng-template #desktopMenu>
+  <my-menu-desktop></my-menu-desktop>
+</ng-template>

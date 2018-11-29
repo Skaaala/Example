@@ -1,0 +1,15 @@
+<mat-card>
+  <div class="empty-feed-wrap" fxLayout="column" ngClass.xs="mobile">
+    <div class="empty-center headers-wrap">
+      <div class="header">{{header}}</div>
+      <div class="subheader">{{subheader}}</div>
+    </div>
+    <div class="empty-center">
+      <a class="middle-btn" [routerLink]="[middleBtnLink]" mat-flat-button large color="accent">{{middleBtnText}}</a>
+    </div>
+    <div class="empty-center">
+      <!-- TODO replace with routerlink when discover places will be ready-->
+      <a [href]="bottomBtnLink" class="bottom-btn">{{bottomBtnText}}</a>
+    </div>
+  </div>
+</mat-card>

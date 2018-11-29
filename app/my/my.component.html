@@ -1,0 +1,23 @@
+<ng-container *ngIf="{mobile: mobile$ | async} as state">
+  <my-bar></my-bar>
+  <div gdAreas=". page ."
+       gdColumns="minmax(20px, auto) minmax(min-content, 1200px) minmax(20px, auto)"
+       class="my-wrap"
+       [class.mobile]="state.mobile">
+    <div gdArea="page">
+      <div fxLayout="row"
+           fxLayout.lt-md="column">
+        <div fxFlex="0 0 auto"
+             class="my-menu-wrap">
+          <my-menu [mobile]="state.mobile"></my-menu>
+        </div>
+        <div fxFlex="1 1 auto"
+             class="my-content"
+             [class.mobile]="state.mobile">
+          <router-outlet></router-outlet>
+        </div>
+      </div>
+    </div>
+  </div>
+  <footer-new showTopDivider="true"></footer-new>
+</ng-container>

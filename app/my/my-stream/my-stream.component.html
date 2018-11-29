@@ -1,0 +1,37 @@
+<div infiniteScroll
+     [infiniteScrollDistance]="2"
+     (scrolled)="onScroll()">
+  <content-header header="{{'front_my_my-stream-header' | translate:'My'}}"></content-header>
+  <div class="my-stream-wrap"
+       fxLayout="row"
+       ngClass.lt-md="mobile">
+    <div fxFlex="1 1 auto"
+         fxFlex.xs="100%">
+      <ng-container *ngIf="{ loading: feedLoading$ | async, activities: feedActivities$ | async, noMorePages: feedNoMorePages$ | async} as data">
+        <h3>{{'front_my_what-is-new' | translate:'What\'s New'}}?</h3>
+        <feed [showAddPost]="false"
+              [type]="'user'"
+              (commentAction)="onCommentAction($event)"
+              (likeAction)="onLikeAction($event)"
+              [loading]="data?.loading"
+              [activities]="data?.activities">
+        </feed>
+        <empty-feed *ngIf="!data?.loading && data?.activities && data?.activities?.length === 0"
+                    header="{{'front_my-feed-activity-stream-empty-state-header' | translate:'Nothing here?'}}"
+                    subheader="{{'front_my-feed-activity-stream-empty-state-subheader' | translate:'Let\'s find some maps and places that you will love!'}}"
+                    middleBtnText="{{'front_my-feed-activity-stream-empty-state-middle-btn-text' | translate:'Discover Maps'}}"
+                    middleBtnLink="/discover"
+                    bottomBtnText="{{'front_my-feed-activity-stream-empty-state-bottom-btn-text' | translate:'Discover Stories'}}"
+                    bottomBtnLink="https://blog..com">
+        </empty-feed>
+        <mat-card class="no-more-pages-state" *ngIf="!data?.loading && data?.noMorePages && data?.activities?.length > 0">
+          {{ 'front_my-feed-activity-stream-no-more-activities' | translate:'No more activities' }}
+        </mat-card>
+      </ng-container>
+    </div>
+    <my-stream-sidebar *ngIf="!(mobile$ | async)"
+                       fxFlex="0 0 280px"
+                       class="recommended-list">
+    </my-stream-sidebar>
+  </div>
+</div>
